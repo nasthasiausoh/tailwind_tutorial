@@ -12,7 +12,7 @@ const Analytics = () => {
                 <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>Manage Data Analytics Centrally</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ducimus odit, neque totam temporibus ipsum ipsa, sapiente molestias, debitis voluptatem reprehenderit. Necessitatibus voluptas odit quam omnis eos nam at alias!</p>
                 <button className='bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 py-3 mx-auto md:mx-0'>Get Started</button>
-                {/* here we are doing margin-auto but anything over medium then we are setting the margin x to 0 */}
+                {/* here we are doing margin-auto but anything over medium then we are setting the margin x to 0. Basically means that when it is wide screen then have the button be without margin but when it is mobile size then have the button in the centre. */}
            
              </div>
 
