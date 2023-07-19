@@ -30,11 +30,7 @@ const Hero = () => {
             <button className='bg-[#00df9a] text-black w-[200px] rounded-md font-medium my-6 mx-auto py-3'>Get Started</button>
             {/* for buttons on tailwind css, the default is that it has no styling at all whereas bootstrap does has styling automatically applied. */}
             {/* in this case using mx-auto moved it into the center of the div and  */}
-
-
-
         </div>
-
     </div>
   )
 }
