@@ -25,7 +25,7 @@ const Footer = () => {
         <div className='lg:col-span-2 flex justify-between mt-6'>
             {/* anything above the large break point-> we want it to be spanned across 3 otherwise we want it to be stacked */}
             <div>
-                <h6 className='font-medium text-gray-400'>Solutions</h6>
+                <h6 className='font-medium text-gray-400 underline'>Solutions</h6>
                 <ul>
                     <li className='py-2 text-sm'>Analytics</li>
                     <li className='py-2 text-sm'>Marketing</li>
@@ -35,7 +35,7 @@ const Footer = () => {
             </div>
 
             <div>
-                <h6 className='font-medium text-gray-400'>Support</h6>
+                <h6 className='font-medium text-gray-400 underline'>Support</h6>
                 <ul>
                     <li className='py-2 text-sm'>Pricing</li>
                     <li className='py-2 text-sm'>Documentation</li>
@@ -45,7 +45,7 @@ const Footer = () => {
             </div>
 
             <div>
-                <h6 className='font-medium text-gray-400'>Company</h6>
+                <h6 className='font-medium text-gray-400 underline'>Company</h6>
                 <ul>
                     <li className='py-2 text-sm'>About</li>
                     <li className='py-2 text-sm'>Blog</li>
@@ -56,7 +56,7 @@ const Footer = () => {
             </div>
 
             <div>
-                <h6 className='font-medium text-gray-400'>Legal</h6>
+                <h6 className='font-medium text-gray-400 underline'>Legal</h6>
                 <ul>
                     <li className='py-2 text-sm'>Claim</li>
                     <li className='py-2 text-sm'>Policy</li>
